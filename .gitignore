@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+ENV/
+.venv
+pip-log.txt
+*.egg
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+docker-compose.override.yml
+Dockerfile.dev
+*.env
+
+# Google Cloud
+*.json
+.gcloud/
+.gsutil/
+*.credentials
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Distribution / packaging
+dist/
+build/
+downloads/
+eggs/
+lib/
+lib64/
+
+# Local development
+.DS_Store
+.coverage
+htmlcov/
+.pytest_cache/
+node_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.aider*
